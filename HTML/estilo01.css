@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+.header01 {
+    background-color: #066fc6;
+
+}
+
+/* .container01 {
+    float: right;
+    width: 30%;
+    padding: 8px;
+    box-sizing: border-box;
+} */
+.espaco{
+    margin-right: 35vh;
+}
+
+.espaco04 {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.espaco02{
+    margin-left:6vh;
+    margin-right:6vh;
+}
+
+.espaco03{
+    text-align: center;
+}
+
+.espaco05{
+    margin-left: 22vh;
+}
+
+.col {
+    float: left;
+    width: 20%;
+    padding: 6px;
+   }
+
+
+.pl {
+    text-decoration: none;
+    list-style: none;
+}
