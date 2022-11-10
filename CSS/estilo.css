@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+.navegação {
+    background-color: #066fc6;
+}
+
+.menu_nav {
+    margin-left:6vh;
+    margin-right:6vh;
+}
+
+.navega_menu {
+    text-align: center;
+}
+
+.apenasLogo{
+    height: 100px;
+    width: 100px;
+}
+
+.sub{
+    background-color: #066fc6;
+    color: white;
+    padding: 6vh;
+}
+
+.sub_titulo{
+    margin: 6vh 2vh 4vh 3vh;
+    color: #0261d6;
+}
+
+.card{
+    width: 18rem;
+    color: white;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card_prod {
+    margin-left: 22vh;
+}
+
+.btnLogoWhats {
+    width: 2rem;
+}
+
+.rodape{
+    margin: 5vh 0 0 0;
+}
+
+.lista_rodape {
+    list-style: none;
+}
+
+.link_rodape {
+    text-decoration: none;
+    color: white;
+}
+.img_rodape {
+    width: 3vh;
+    height: 3vh;
+}
