@@ -1,95 +1,127 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Félix Refrigerações</title>
+    <title>Félix Refrigeração</title>
     <!--Icone no titulo da guia da página-->
     <link rel="shortcut icon" href="/img/logo_comfundo.png" type="image/x-icon">
     <!--Fim do icone no titulo da guia da página-->
     <!--Inicio do link CSS-->
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="/CSS/empresa.css">
     <!--Fim do link CSS-->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- FIM CSS BOOTSTRAP -->
 </head>
+
 <body>
     <header>
-        <div>
-            <!--Inicio da imagem da logo-->
-            <img src="/img/logoFelix.png" alt="logo da página">
-            <!--Fim da imagem da logo-->
-            <!--Inicio do menu de navegação-->
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="empresa.html">Empresa</a></li>
-                    <li><a href="produtos.html">Produtos</a></li>
-                    <li><a href="contatos.html">Contatos</a></li>
-                </ul>
-            </nav>
-            <!--Fim do menu de navegação-->
-        </div>
+        <!--Menu de navegação-->
+        <nav class="navbar navbar-expand-lg navegação">
+            <div class="container-fluid menu_nav">
+                <a class="navbar-brand" href="index.html"><img class="apenasLogo" src="/img/ApenasOLogo.png" alt="Logo clicável"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <section class="navega_menu">
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item menu_nav">
+                                <button class="btn btn-warning"><a class="nav-link" aria-current="page"
+                                        href="index.html">Home</a></button>
+                            </li>
+                            <li class="nav-item menu_nav">
+                                <button class="btn btn-warning"><a class="nav-link active"
+                                        href="empresa.html">Empresa</a></button>
+                            </li>
+                            <li class="nav-item menu_nav">
+                                <button class="btn btn-warning"><a class="nav-link"
+                                        href="produtos.html">Produtos</a></button>
+                            </li>
+                            <li class="nav-item menu_nav">
+                                <button class="btn btn-warning"><a class="nav-link"
+                                        href="contatos.html">Contatos</a></button>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </nav>
+        <!--Menu de navegação-->
     </header>
     <main>
-        <!--Inicio da seção da imagem e titulo quem somos-->
         <section>
             <img src="/img/equipe.png" alt="mãos da equipe">
-            <h2>Quem Somos</h2>
+            <h2 class="sub">Quem Somos</h2>
         </section>
-        <!--Fim da seção da imagem e titulo quem somos-->
         <!--Inicio da seção de textos-->
-        <section>
-            <div>
-                <h3>História</h3>
-                <p>Tudo começou quando eu era criança e tive curiosidades nesse setor, e desta maneira comecei a
-                    desmontar os aparelhos de casa, e conforme fui crescendo despertou meu interesse na área, e foi onde
-                    trabalhei por 10 anos em uma empresa de assistência técnica e iniciei os estudos para me qualificar
-                    no objetivo de desenvolver as habilidades necessárias para poder prestar serviços nessa
-                    especialidade.Então foi em 2007, que decidi empreender e há 15 anos que estou trabalhando nesse
-                    setor e me dedicando completamente aos meus clientes.</p>
-                <img src="/img/homem.png" alt="félix">
-            </div>
-            <div>
-                <h3>Missão</h3>
-                <p>Comercializar e prestar serviços de assistência técnica em equipamentos eletrodomésticos de qualidade
-                    diferenciada pela robustez e versatilidade, gerando valores e benefícios para clientes e sociedade.
-                    Também temos um compromisso firme com a sustentabilidade, melhorando a eficácia de seu aparelho para
-                    economizar custos e melhorar o tempo de vida de seu aparelho eletrodoméstico.</p>
-            </div>
-            <div>
-                <h3>Visão</h3>
-                <p>Ao empreender mostramos o reconhecimento no ramo de assistência técnica em eletrodomésticos e
-                    mostrando aos possíveis consumidores o nosso serviço de qualidade que cada vez mais estão melhorando
-                    e sendo requisitados no mercado de conserto de eletrodomésticos.</p>
-            </div>
-            <div>
-                <h3>Valores</h3>
-                <ul>
-                    <li>Disciplina</li>
-                    <li>Crescimento profissional</li>
-                    <li>Dedicação ao trabalho</li>
-                    <li>Qualidade em tudo que fazemos</li>
-                    <li>Satisfação do cliente</li>
-                    <li>Transparência</li>
-                    <li>Honestidade</li>
-                    <li>Integridade</li>
-                    <li>Respeito as pessoas</li>
-                </ul>
-            </div>
-        </section>
-        <!--Fim da seção de textos-->
-    </main>
-    <footer>
-        <small>
-            <p>Seg. à Sex. 8:00 às 18:00</p>
-            <ul>
-                <li><a href="https://web.whatsapp.com/send?phone=5511998531487">Whatsapp: 11 998531487</a></li>
-                <li><a href="https://www.facebook.com/felix.veras.587">Felix Veras</a></li>
+        <div>
+            <h3 class="titulos">História</h3>
+            <hr class="linha">
+            <p>Tudo começou quando eu era criança e tive curiosidades nesse setor, e desta maneira comecei a desmontar os aparelhos de casa, e conforme fui crescendo despertou meu interesse na área, e foi onde trabalhei por 10 anos em uma empresa de assistência técnica e iniciei os estudos para me qualificar no objetivo de desenvolver as habilidades necessárias para poder prestar serviços nessa especialidade.Então foi em 2007, que decidi empreender e há 15 anos que estou trabalhando nesse setor e me dedicando completamente aos meus clientes.</p>
+            <img class="felix" src="/img/felix.png" alt="félix">
+        </div>
+        <div>
+            <h3 class="titulos">Missão</h3>
+            <p>Comercializar e prestar serviços de assistência técnica em equipamentos eletrodomésticos de qualidade diferenciada pela robustez e versatilidade, gerando valores e benefícios para clientes e sociedade. Também temos um compromisso firme com a sustentabilidade, melhorando a eficácia de seu aparelho para economizar custos e melhorar o tempo de vida de seu aparelho eletrodoméstico.</p>
+        </div>
+        <div>
+            <h3 class="titulos">Visão</h3>
+            <p>Ao empreender mostramos o reconhecimento no ramo de assistência técnica em eletrodomésticos e mostrando aos possíveis consumidores o nosso serviço de qualidade que cada vez mais estão melhorando e sendo requisitados no mercado de conserto de eletrodomésticos.</p>
+        </div>
+        <div>
+            <h3 class="titulos">Valores</h3>
+            <ul class="lista">
+                <li>Disciplina</li>
+                <li>Crescimento profissional</li>
+                <li>Dedicação ao trabalho</li>
+                <li>Qualidade em tudo que fazemos</li>
+                <li>Satisfação do cliente</li>
+                <li>Transparência</li>
+                <li>Honestidade</li>
+                <li>Integridade</li>
+                <li>Respeito as pessoas</li>
             </ul>
-            <p>Endereço: Rua Ângelo Rojas, 134
-                Bairro Jaraguá - São Paulo
-                CEP: 02992-040</p>
+        </div>
+        <!--Fim da seção de textos-->
+        <section>
+            
+        </section>
+    </main>
+
+    <footer class="rodape navega_menu sub">
+        <small>
+            <section class="row">
+                <div class="col">
+                    <p>Seg. à Sex. 8:00 às 18:00</p>
+                </div>
+                <div class="col">
+                    <ul class="lista_rodape">
+                        <li><a class="link_rodape" href="https://web.whatsapp.com/send?phone=5511998531487"><img
+                                    class="img_rodape" src="/img/whatsapp.png" alt="Whatsapp">Whatsapp:
+                                (11)998531487</a></li>
+                        <li><a class="link_rodape" href="https://www.facebook.com/felix.veras.587">Felix Veras</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <p>Endereço: Rua Ângelo Rojas, 134
+                        Bairro Jaraguá - São Paulo
+                        CEP: 02992-040</p>
+                </div>
+            </section>
         </small>
     </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <!-- FIM JS BOOTSTRAP -->
 </body>
+
 </html>

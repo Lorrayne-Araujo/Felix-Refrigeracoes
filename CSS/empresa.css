@@ -24,28 +24,21 @@
     padding: 6vh;
 }
 
-.sub_titulo{
-    margin: 6vh 2vh 4vh 3vh;
+.felix {
+    border-radius: 30vh;
+}
+
+.titulos{
     color: #0261d6;
 }
 
-.card{
-    width: 18rem;
-    color: white;
+.linha {
+    color: #fddc02;
 }
 
-.card-title{
-    text-align: center;
+.lista {
+    list-style: none;
 }
-
-.card_prod {
-    margin-left: 22vh;
-}
-
-.btnLogoWhats {
-    width: 2rem;
-}
-
 
 .rodape{
     margin: 5vh 0 0 0;

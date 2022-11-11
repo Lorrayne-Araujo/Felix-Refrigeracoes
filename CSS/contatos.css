@@ -27,24 +27,28 @@
 .sub_titulo{
     margin: 6vh 2vh 4vh 3vh;
     color: #0261d6;
-}
-
-.card{
-    width: 18rem;
-    color: white;
-}
-
-.card-title{
     text-align: center;
 }
 
-.card_prod {
-    margin-left: 22vh;
+.btnLogoWhats {
+    width: 2rem;  
 }
 
-.btnLogoWhats {
-    width: 2rem;
+.formulario {
+    background-color: #fddc02;
+    margin: 2vh 5vh 2vh 5vh;
+    border-radius: 5vh;
 }
+
+.obj_form{
+    margin: 5vh;
+    border-radius: 1vh;
+    border: none;
+    background-color: #066fc6;
+    width: 50%;
+    height: 7vh;
+}
+
 
 
 .rodape{

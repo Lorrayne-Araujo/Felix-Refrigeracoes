@@ -9,13 +9,13 @@
     margin-right:6vh;
 }
 
-.navega_menu {
-    text-align: center;
-}
-
 .apenasLogo{
     height: 100px;
     width: 100px;
+}
+
+.navega_menu {
+    text-align: center;
 }
 
 .sub{
@@ -24,28 +24,9 @@
     padding: 6vh;
 }
 
-.sub_titulo{
-    margin: 6vh 2vh 4vh 3vh;
-    color: #0261d6;
+.img_pri {
+    width: 100%;
 }
-
-.card{
-    width: 18rem;
-    color: white;
-}
-
-.card-title{
-    text-align: center;
-}
-
-.card_prod {
-    margin-left: 22vh;
-}
-
-.btnLogoWhats {
-    width: 2rem;
-}
-
 
 .rodape{
     margin: 5vh 0 0 0;
