@@ -1,32 +1,55 @@
 @charset "UTF-8";
 
-.navegação {
-    background-color: #066fc6;
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
 }
 
-.menu_nav {
-    margin-left:6vh;
-    margin-right:6vh;
+nav {
+    width: 100%;
+    display: flex;
+    position: relative;
+    background-color: #3da6f8;
 }
 
-.navega_menu {
-    text-align: center;
+nav a {
+    color: #fddc02;
+    margin: auto 20px auto 40px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-.apenasLogo{
-    height: 100px;
-    width: 100px;
+nav a:hover {
+    color: #066fc6;
 }
 
-.sub{
+nav a img {
+    width: 80px;
+    height: 80px;
+}
+
+nav li {
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+}
+
+.subtitulo {
     background-color: #066fc6;
     color: white;
-    padding: 6vh;
+    width: 1000vh;
+    height: 10vh;
+    padding: 2vh;
 }
 
 .sub_titulo{
     margin: 6vh 2vh 4vh 3vh;
     color: #0261d6;
+}
+
+.navega_menu {
+    text-align: center;
 }
 
 .card{
@@ -42,10 +65,28 @@
     margin-left: 22vh;
 }
 
+.card-text{
+    color: black;
+}
+
+.btn{
+    background-color: #0261d6;
+    color: white;
+}
+
+.btn:hover{
+    background-color: #3da6f8;
+    color: black;
+}
+
+.btn-contato{
+    margin: 3vh 6vh 3vh 6vh;
+    width: 80vh;
+}
+
 .btnLogoWhats {
     width: 2rem;
 }
-
 
 .rodape{
     margin: 5vh 0 0 0;
@@ -59,7 +100,18 @@
     text-decoration: none;
     color: white;
 }
+
+.link_rodape:hover{
+    color: black;
+}
+
 .img_rodape {
     width: 3vh;
     height: 3vh;
+}
+
+.sub{
+    background-color: #066fc6;
+    color: white;
+    padding: 6vh;
 }
