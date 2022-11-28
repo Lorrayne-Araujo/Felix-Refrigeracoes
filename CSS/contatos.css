@@ -1,28 +1,47 @@
 @charset "UTF-8";
 
-.navegação {
-    background-color: #066fc6;
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
 }
 
-.menu_nav {
-    margin-left:6vh;
-    margin-right:6vh;
+nav {
+    width: 100%;
+    display: flex;
+    position: relative;
+    background-color: #3da6f8;
 }
 
-.navega_menu {
-    text-align: center;
+nav a {
+    color: #fddc02;
+    margin: auto 20px auto 40px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-.apenasLogo{
-    height: 100px;
-    width: 100px;
+nav a:hover {
+    color: #066fc6;
 }
 
+nav a img {
+    width: 80px;
+    height: 80px;
+}
 
-.sub{
+nav li {
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.subtitulo {
     background-color: #066fc6;
     color: white;
-    padding: 6vh;
+    width: 1000vh;
+    height: 10vh;
+    padding: 2vh;
 }
 
 .sub_titulo{
@@ -46,11 +65,6 @@
     color: white;
 }
 
-.logoFace {
-    width: 3vh;
-    height: 3vh;
-    margin-right: 0.5rem;
-}
 .formulario {
     background-color: #d9d9d9;
     margin: 2vh 5vh 2vh 5vh;
@@ -73,9 +87,10 @@
     align-items: center;
     border: none;
     border-radius: 2vh;
-    width: 70vh;
-    height: 40vh;
+    width: 50vh;
+    height: 30vh;
 }
+
 .rodape{
     margin: 5vh 0 0 0;
 }
@@ -88,8 +103,18 @@
     text-decoration: none;
     color: white;
 }
+
+.link_rodape:hover{
+    color: black;
+}
+
 .img_rodape {
-    width: 4vh;
-    height: 4vh;
-    margin-right: 0.5rem;
+    width: 3vh;
+    height: 3vh;
+}
+
+.sub{
+    background-color: #066fc6;
+    color: white;
+    padding: 6vh;
 }

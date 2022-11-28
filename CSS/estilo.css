@@ -33,6 +33,7 @@ nav li {
     float: left;
     list-style: none;
     margin-left: 20px;
+    margin-top: 30px;
 }
 
 .subtitulo {
@@ -80,8 +81,17 @@ nav li {
 }
 
 .btn-contato{
-    margin: 3vh 6vh 3vh 6vh;
-    width: 80vh;
+    margin: 3vh 15vh 3vh 15vh;
+    width: 60vh;
+}
+
+section button a {
+    text-decoration: none;
+    color: white;
+}
+
+section button a:hover{
+    color: black;
 }
 
 .btnLogoWhats {
